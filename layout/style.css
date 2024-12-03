@@ -1,0 +1,42 @@
+.navbar .item .subnav:hover {
+  background: linear-gradient(to bottom, #1e1e1e, #431b1b);
+  border-bottom: 3px solid #be1313;
+}
+
+.navbar .item .subnav {
+  padding: 12px;
+  height: 50px;
+}
+
+.submenu {
+  max-height: 0;
+  padding-left: 25px !important;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+.submenu.open {
+  max-height: 500px; /* Giá trị lớn hơn chiều cao tối đa submenu */
+}
+
+.custom-marker li::marker {
+  color: #3b3b3b;
+}
+
+.subnav:hover .subnav-content {
+  display: flex;
+}
+
+.subnav-link {
+  padding: 10px 10px
+}
+
+.option-search:hover, .subnav-link:hover {
+  background: linear-gradient(to left, #000, #000, #000, #181818, #431b1b);
+  border-left: 3px solid #be1313;
+}
+.play-video {
+  display: none;
+}
+.post:hover .play-video {
+  display: block;
+}

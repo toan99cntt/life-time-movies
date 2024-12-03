@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'UTMAvo';
+	src: local('UTMAvo'), url('./UTMAvo.woff') format('woff');
+}
+@font-face {
+	font-family: 'utmavobold';
+	src: local('utmavobold'), url('./utmavobold.woff') format('woff');
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.font-bold {
+	font-family: 'utmavobold' !important;
+}
+
+body {
+	font-family: 'UTMAvo' !important;
+}
